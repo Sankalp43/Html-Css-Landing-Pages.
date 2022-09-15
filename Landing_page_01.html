@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+
+    
+    <style>
+        body{
+            /* font-family: Rancho; */
+            margin: 0px;
+            padding: 0px;
+            background-color: black;
+            color: white;
+            
+        }
+        header::before{
+            background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover;
+            position:absolute;
+            content: "";
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            top:0;
+            left:0;
+            opacity: 0.3;
+
+        }
+
+        .navigation{
+            font-family: 'Bree Serif' , serif;
+            font-size: 20px;
+            display: flex;
+            /* list-style: none; */
+            
+        }
+        li{
+            list-style: none;
+            padding: 20px 23px;
+
+        }
+        h1{
+            font-size: 4rem;
+        }
+
+        header{
+            display: flex;
+        }
+        navbar{
+            display: flex;
+            
+
+        }
+        section{
+            /* border: 2px solid red; */
+            font-family: 'Bree Serif', serif;
+            height: 344px;
+            justify-content: center;
+
+            display: flex;
+            margin: 3px 230px;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* section::before{
+            content: "this is content.";
+        } */
+        section::after{
+            content: "this is content.";
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover{
+            color: purple;
+        }
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item"><a href="">Home</a></li>
+                <li class="item"><a href="">About</a></li>
+                <li class="item"><a href="">Services</a></li>
+                <li class="item"><a href="">Contact Us</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Welcome to Coding World.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nesciunt illum, labore iste provident consectetur voluptate ratione maiores quia, exercitationem molestias repellendus at tempora quos quidem eligendi eius earum adipisci? Praesentium soluta eveniet dolores!</p>
+    </section>
+</body>
+</html>
