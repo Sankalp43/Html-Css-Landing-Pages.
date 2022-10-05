@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeFit</title>
+</head>
+
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="css/style.css"> 
+ 
+    <style>
+        .btn{
+            font-family: 'Baloo Bhai', 'cursive';
+            margin:0px 9px;
+            color:white;
+            background-color: black;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor:pointer;
+
+        }
+
+        .btn :hover{
+            background-color: rgb(31,30,30);
+        }
+        body{
+            font-family: 'Baloo Bhai', 'cursive';
+            margin: 0px;
+            padding:0px;         
+            /* background: url("abs-gccc88264d_1920.jpg"); */
+            
+
+            color: white;
+
+            
+        }
+         .header{
+            /* margin:0px; */
+            border: 2px solid #efb788;
+            /* border */
+            height: 450px;
+            /* padding-top: 100px; */
+            background-color: #efb788;
+            text-align: center;
+            border-bottom-left-radius:20px ;
+            border-bottom-right-radius:20px ;
+        } 
+
+        .left{
+            position: absolute;
+            left:60px;
+            top:20px;
+            display: inline-block;
+             /* border: 2px solid red */
+            
+            
+
+        }
+        .left div{
+
+            line-height: 19px;
+            text-align: center;
+            
+            font-size: 26px;
+            color: black;
+            /* padding: 0px; */
+        }
+        .left img{
+            /* margin-left: 10px; */
+            /* margin-right: 10px; */
+            width: 136px;
+            
+            /* filter: invert(100%); */
+        }
+     
+        .mid{
+            display: block;
+            /* top: 20px; */
+            width: 60%;
+            margin: 29px auto;
+            /* border:2px solid blue */
+            
+
+        }
+        
+        .right{
+            position:absolute;
+            right: 34px;
+            top: 43px; 
+
+            display: inline-block;
+            /* border: 2px solid green */
+        }
+
+        .right button:hover{
+            /* text-decoration: underline; */
+            color:grey ;
+        }
+
+        .navbar{
+            display: inline-block;
+    
+        }
+        
+        .navbar li{
+            display: inline-block;
+            font-size: 25px; 
+
+             
+        }
+        .navbar li a{
+            color: black;
+            text-decoration: none;
+            
+            padding: 34px 23px;
+        }
+
+        .navbar li a:hover , .navbar li a.active{
+            text-decoration: underline;
+            color:grey ;
+        }
+
+        .container{
+            border: 2px solid white;
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+
+
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 508px;
+            padding:1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            border-radius: 8px;
+            font-size: 25px;
+            font-family: 'Baloo Bhai', 'cursive';
+
+
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 500px;
+            margin: 20px auto;
+        }
+        .container button:hover{            
+            color:grey ;
+
+        }
+
+        #intro{
+            
+            display: inline-block;
+            border: 5px solid #a87c30;
+            border-radius: 15px;
+            text-align: center;
+            /* margin-left: 400px; */
+            /* border-width: 5px; */
+            margin-top: 0px;
+            /* margin: auto; */
+            height: 400px;
+            width: 600px;
+            background: url("hd-wallpaper-gf7ca3fe0f_1920.jpg");
+            background-image: url("dumbbell-g792b3e1bf_640.jpg");
+
+            /* background-color: #a29ce0; */
+
+        }
+        #heading{
+            /* border: 2px solid red; */
+            display: block;
+            margin-top: 50px;
+            text-align: center;
+            color: black;
+            font-size: 70px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        #para{
+            color: black;
+            /* border: 2px solid red; */
+            /* text-align: center; */
+            font-size: 18px;
+            margin:auto;
+            width: 600px;
+        }
+/* 
+        .first-letter {
+  font-size: 35px;
+  line-height: 70px; */
+/* } */
+
+        /* p::first-letter {
+        font-size: 400%;
+        color: black;
+} */
+/* .para{
+  initial-letter: 2;
+}
+     */
+     
+     .subhead::first-letter {
+  initial-letter: 2;
+}
+
+p::first-letter {
+    -webkit-initial-letter: 4 1;
+          initial-letter: 4 1;
+  color: orange;
+  font-weight: bold;
+  font-size: 30px;
+  /* margin-right: .75em; */
+}
+
+
+
+    </style>
+
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="gym-weight-838751.png" alt="">
+            <div>
+                Be Fit
+            </div>
+           
+        </div>
+        
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="" class="active">About Us</a></li>
+                <li><a href="https://www.medindia.net/patients/calculators/fitness-calculator.asp" target="_blank">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+
+        <h1 id="heading">About Us.</h1>
+
+        <div id="intro">
+            
+        </div>
+
+        <div id="para">
+            <p class="subhead"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum eos hic vel mollitia quas aut iste fugiat accusamus corrupti officiis nesciunt laudantium repudiandae corporis voluptatum consequatur sed illum natus adipisci, quo commodi nostrum cum! Ipsum ipsa consequatur officia suscipit quidem recusandae quisquam fugiat ea dicta, quasi et illum architecto iusto. Nemo accusantium aperiam libero accusamus. Dignissimos distinctio magnam nostrum eum praesentium ipsum quis, ipsa doloremque maxime provident doloribus nam temporibus error. Alias, commodi obcaecati? Perferendis natus provident unde adipisci id. Tempore quae non rem adipisci possimus quasi nesciunt fugit deserunt odio maiores amet exercitationem, quidem accusantium nostrum, inventore ipsum modi facere doloribus tenetur a est ipsam consequuntur magni. Quasi beatae ipsum maiores sit tenetur dolores, 
+                
+            </p>
+                
+        </div>
+        
+        
+    </header>
+    
+
+
+    
+
+   
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
